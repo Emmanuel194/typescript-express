@@ -6,7 +6,7 @@ app.post("/", lidarComRequisicao)
 
 
 function lidarComRequisicao(req: Request, res: Response) {
-  res.status(401).send("Ola, mundo!");
+  res.status(401).send("Ola");
 }
 
 // const aplicacaoIniciando = () => {  // ARROW FUCNTION , modelo dela.
